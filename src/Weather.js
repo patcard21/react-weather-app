@@ -20,7 +20,15 @@ export default function Weather() {
         <li>Wed 7:00pm</li>
         <li>Mostly Cloudy</li>
       </ul>
-      <div className="row"></div>
+      <div className="row">
+        <div className="col-6">
+          <ul>
+            <li>Precipitation: 15%</li>
+            <li>Humidity: 72%</li>
+            <li>Wind: 13km/ph</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
