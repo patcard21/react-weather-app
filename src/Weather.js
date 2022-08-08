@@ -7,12 +7,16 @@ export default function Weather() {
       Hello from Weather.js
       <form>
         <div className="row">
-          <input
-            type="search"
-            placeholder="Enter a city.."
-            className="form-control"
-          />
-          <input type="button" value="Search" className="btn btn-primary" />
+          <div className="col-9">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              className="form-control"
+            />
+          </div>
+          <div className="col-3">
+            <input type="button" value="Search" className="btn btn-primary" />
+          </div>
         </div>
       </form>
       <h1>New York</h1>
