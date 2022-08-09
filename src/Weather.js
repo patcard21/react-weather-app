@@ -2,6 +2,9 @@ import React from "react";
 import "./Weather.css";
 
 export default function Weather() {
+  let apiKey = "f4e257f61e44c9e6b5b1129ee526efb9";
+  let apiUrl =
+    "https://api.openweathermap.org/data/2.5/forecast/hourly?q={city name}&appid={API key}";
   return (
     <div className="Weather">
       Hello from Weather.js
