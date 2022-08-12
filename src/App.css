@@ -1,26 +1,11 @@
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #282c34;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 28px;
-}
-
 .App {
   max-width: 600px;
   margin: 30px auto;
 }
-/*.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}*/
 
 .App-link {
   color: #282c34;
   text-decoration: none;
-}
-.container {
-  text-align: justify;
 }
 
 .App footer {
