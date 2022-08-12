@@ -59,7 +59,7 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        <WeatherInfo data={weatherData} size={48} />
+        <WeatherInfo data={weatherData} size={40} />
         <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
