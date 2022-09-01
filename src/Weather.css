@@ -1,8 +1,3 @@
-a,
-.unit {
-  color: "grey";
-}
-
 .Weather {
   border: 2px double rgb(210, 196, 230);
   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
