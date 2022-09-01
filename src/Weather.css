@@ -52,3 +52,40 @@
   line-height: 1;
   top: -34px;
 }
+
+.btn-primary {
+  font-family: "Roboto Mono", monospace, sans-serif !important;
+  font-weight: 400;
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -2px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-primary:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-control {
+  box-shadow: -7px 4px 5px 0px rgba(87, 117, 214, 0.3);
+  border: 1px, rgb(83, 83, 83);
+}
