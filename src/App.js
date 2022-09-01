@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        
         <Weather defaultCity="New York" />
 
         <footer>
@@ -17,7 +16,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Coded by Patricia Cardona
+            Coded by Patricia Cardona 👾
           </a>
         </footer>
       </div>

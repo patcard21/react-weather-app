@@ -1,13 +1,17 @@
+a,
+.unit {
+  color: "grey";
+}
+
 .Weather {
-  font-family: arial, sans-serif;
-  border: 1px double #b1bfd2;
-  padding: 16px;
-  border-radius: 4px;
-  color: rgb(135, 135, 135);
-  background: radial-gradient(
-    592px at 48.2% 50%,
-    rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%
+  border: 2px double rgb(210, 196, 230);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  border-radius: 32px;
+  padding: 40px;
+  background: linear-gradient(
+    0deg,
+    rgb(252, 221, 221) 23.8%,
+    rgb(191, 173, 191) 92%
   );
 }
 
@@ -53,6 +57,10 @@
   top: -34px;
 }
 
+.btn {
+  border: none;
+}
+
 .btn-primary {
   font-family: "Roboto Mono", monospace, sans-serif !important;
   font-weight: 400;
@@ -63,7 +71,7 @@
   cursor: pointer;
   margin-top: -2px;
   text-align: center;
-  border: none;
+
   background-size: 300% 100%;
   border-radius: 50px;
   -o-transition: all 0.4s ease-in-out;
@@ -87,5 +95,4 @@
 
 .form-control {
   box-shadow: -7px 4px 5px 0px rgba(87, 117, 214, 0.3);
-  border: 1px, rgb(83, 83, 83);
 }
